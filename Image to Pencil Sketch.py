@@ -2,8 +2,7 @@
 
 import cv2
 
-# Enter the image file name that is to be converted into pencil sketch
-image_name = input().strip()
+image_name = input().strip() # Enter the image file name that is to be converted into pencil sketch
 image = cv2.imread(image_name)
 name,ext = image_name.split('.')
 cv2.imshow(name, image)
